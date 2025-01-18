@@ -1,5 +1,3 @@
-import axios from "axios";
-
 async function uploadImageToCloudinary(imageData: string | File) {
   const formData = new FormData();
 
